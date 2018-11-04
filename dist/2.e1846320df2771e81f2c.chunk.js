@@ -609,6 +609,8 @@ if (false) {
             return this.goods.every(function (item) {
                 return item.isSelect;
             });
+            //every 只要有一个回调return false 那么结果为false
+            //some 只要有一个回调return true 那么结果true
         },
         total: function total() {
             var n = 0;
